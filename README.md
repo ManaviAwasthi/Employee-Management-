@@ -1,12 +1,43 @@
-# React + Vite
+## Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web-based Employee Management System built with React, Vite, and Tailwind CSS. It allows administrators and employees to manage tasks, track progress, and handle user access efficiently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Admin Dashboard
+Create new tasks
+View all assigned tasks
+Switch user roles
 
-## Expanding the ESLint configuration
+## Employee Dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+View personal tasks
+Mark task completion
+View task status
+
+## Authentication
+
+Role-based access control
+Separate views for admin and employee
+
+## Tech Stack
+
+React – Component-based UI
+Vite – Fast development and build tool
+Tailwind CSS – Utility-first styling
+React Context API – State management
+LocalStorage – Temporary data persistence
+
+## Folder Structure
+
+src/
+├── assets/                # Static files
+├── components/            # Reusable UI components
+│   ├── Auth/              # Login components
+│   ├── Dashboard/         # Admin & Employee dashboards
+│   └── Other/             # Header, task modules
+├── context/               # Context API for auth/state
+├── pages/                 # Page-level views
+├── utils/                 # Utility functions
+├── App.jsx                # Root component
+├── main.jsx               # Entry point
