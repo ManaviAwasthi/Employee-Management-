@@ -21,9 +21,9 @@ This is a web-based Employee Management System built with React, Vite, and Tailw
 
 ## Tech Stack
 
-React – Component-based UI
-Vite – Fast development and build tool
-Tailwind CSS – Utility-first styling
-React Context API – State management
-LocalStorage – Temporary data persistence
+- React – Component-based UI
+- Vite – Fast development and build tool
+- Tailwind CSS – Utility-first styling
+- React Context API – State management
+- LocalStorage – Temporary data persistence
 
