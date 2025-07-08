@@ -28,16 +28,3 @@ Tailwind CSS – Utility-first styling
 React Context API – State management
 LocalStorage – Temporary data persistence
 
-## Folder Structure
-
-src/
-├── assets/                # Static files
-├── components/            # Reusable UI components
-│   ├── Auth/              # Login components
-│   ├── Dashboard/         # Admin & Employee dashboards
-│   └── Other/             # Header, task modules
-├── context/               # Context API for auth/state
-├── pages/                 # Page-level views
-├── utils/                 # Utility functions
-├── App.jsx                # Root component
-├── main.jsx               # Entry point
