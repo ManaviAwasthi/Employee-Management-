@@ -4,21 +4,20 @@ This is a web-based Employee Management System built with React, Vite, and Tailw
 
 ## Features
 
-Admin Dashboard
-Create new tasks
-View all assigned tasks
-Switch user roles
+### Admin Dashboard
+- Create new tasks
+- View all assigned tasks
+- Switch user roles
 
-## Employee Dashboard
+### Employee Dashboard
+- View personal tasks
+- Mark task completion
+- View task status
 
-View personal tasks
-Mark task completion
-View task status
+### Authentication
+- Role-based access control
+- Separate views for admin and employee
 
-## Authentication
-
-Role-based access control
-Separate views for admin and employee
 
 ## Tech Stack
 
